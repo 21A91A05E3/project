@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Subnet Finder</title>
+	<link rel="stylesheet" type="text/css" href="subnet.css">
+	<script type="text/javascript" src="subnet.js"></script>
+</head>
+<body>
+<header>
+	<h1>Subnet Finder</h1>
+	<div id="main">
+	<h5>Enter private vpc address : <input type="text" id="vpc"> </h5>
+	<h5>Enter the &nbsp; /  &nbsp; value of vpc : <input type="number" id="subnetvalue"> </h5>
+	<h5>Enter the no.of ip's required for each subnet: <input type="number" id="req"></h5>
+	<center><button onclick="find()">Find Subnets</button> &nbsp; &nbsp; &nbsp;
+	<button onclick="Resetfun()">Reset Values</button></center>
+	<div id=answer></div>
+	<p id=answer1></p>
+	</div>
+</header>
+</body>
+<footer>
+	Copyright &copy; Harika Kannuri AWS DevOps trainee @ Technical Hub
+</footer>
+</html>
